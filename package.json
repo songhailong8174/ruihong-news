@@ -38,5 +38,5 @@
     "less-loader": "^4.1.0",
     "react-app-rewired": "^2.1.0"
   },
-  "homepage": "."
+  "homepage": "/"
 }

@@ -184,8 +184,26 @@ export const Nav30DataSource = {
         className: 'header3-item',
         children: {
           href: 'https://console.hongyusky.cn/user/login',
+          children: [
+            {
+              children: (
+                <span>
+                  <p>免费试用</p>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+          target: '',
+        },
+      },
+      {
+        name: 'item~kbwekwvsklc',
+        className: 'header3-item',
+        children: {
+          href: 'http://www.js139.com.cn:8044/smsweb/',
           children: [{ children: '登录控制台', name: 'text' }],
-          target: '_blank',
+          target: '',
         },
       },
     ],

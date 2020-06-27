@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { enquireScreen } from 'enquire-js';
-import Header from './Home/Nav3';
-import Footer from './Home/Footer1';
+// import Header from './Home/Nav3';
+// import Footer from './Home/Footer1';
 import Home from './Home';
 import Detail from './Detail';
 
-import {
-  Nav30DataSource,
-  Footer10DataSource,
-} from './Home/data.source.js';
+// import {
+//   Nav30DataSource,
+//   Footer10DataSource,
+// } from './Home/data.source.js';
 
 let isMobile;
 enquireScreen((b) => {

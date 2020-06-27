@@ -12,7 +12,7 @@ import Footer1 from './Footer1';
 import {
   Nav30DataSource,
   Content130DataSource,
-  Feature20DataSource,
+  // Feature20DataSource,
   Footer10DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -72,7 +72,7 @@ export default class Home extends React.Component {
 loadData (id) {
   request.get('/api/detail/' + id).then(resp => {
     let data = resp.data
-    if (data.code == 200) {
+    if (data.code === 200) {
       this.packageData(data.result)
     }
   })
